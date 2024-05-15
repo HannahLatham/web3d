@@ -1,0 +1,69 @@
+   
+    @font-face {
+        font-family: 'LokiCola';
+        src: url('assets/fonts/LOKICOLA.TTF') format('truetype');
+        }
+    
+        @font-face{
+            font-family: 'WorkSans';
+            src: url('assets/fonts/WorkSans-Bold.TTF') format('truetype');
+        }
+    
+        @font-face{
+            font-family: 'DrPepper';
+            src: url('assets/fonts/Dr.Peppers.TTF') format('truetype');
+        }
+    
+    .coca-cola-logo {
+        font-family: 'LokiCola', sans-serif;
+        color: white; 
+        font-size: 35px;
+    }
+    
+    .sprite-font{
+        font-family: 'WorkSans';
+    }
+    
+    .coca-cola-font{
+        font-family: 'LokiCola';
+    }
+    
+    .drPepper-font{
+        font-family: 'DrPepper';
+    }
+    
+    
+          #x3d-background {
+                background-image: url('assets/images/main_3D.jpg');
+                background-size: cover;
+                background-position: center;
+                margin:10px;
+            }
+    
+            #main_display {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+    
+
+    .nav-link{
+        color: white ;
+    }
+
+    #header{
+        background-color:rgb(173, 0, 0);
+        height: 70px;
+    }
+
+
+    @media (max-width: 1170px) {
+        #drinks-card {
+            flex: 0 0 100%; /* Takes full width on small screens */
+            max-width: 100%; /* Ensures no overflow */
+        }
+    }
+
+   
+    
+
+    /* #header{}       
